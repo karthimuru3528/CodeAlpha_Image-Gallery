@@ -14,6 +14,11 @@ SnapSpace is a frontend web development project focused on creating an engaging 
 
 ![SnapSpace Image Gallery](screenshots/image1.png )
 ![Image view](screenshots/image2.png)
+
+## Demo video
+[Demo video](https://github.com/user-attachments/assets/489eaae8-65ae-4417-af04-d9e870dbbebc)
+
+
 ## ✨ Features
 
 - 🖼️ Modern image gallery layout
