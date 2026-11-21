@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SNAPSPACE - Discover beautiful photography and visual stories.">
+    <title>SNAPSPACE | Photography Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#" class="logo">SNAP<span>SPACE</span><i>.</i></a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+            </div>
+
+            <a href="#gallery" class="nav-button">Explore Photos ↗</a>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="eyebrow">
+                <span class="eyebrow-line"></span>
+                THE ART OF PHOTOGRAPHY
+            </div>
+
+            <h1>
+                Every picture<br>
+                tells a <span>beautiful story.</span>
+            </h1>
+
+            <p class="hero-description">
+                Explore extraordinary places, unforgettable moments
+                and the beauty of the world through our lens.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#gallery" class="primary-button">
+                    Discover Gallery <span>→</span>
+                </a>
+                <span class="hero-note">A collection of visual stories</span>
+            </div>
+        </div>
+
+        <div class="hero-decoration">
+            <div class="hero-circle"></div>
+            <div class="hero-small-text">CAPTURE · CREATE · INSPIRE</div>
+        </div>
+
+        <div class="hero-bottom">
+            <span>01 — VISUAL COLLECTION</span>
+            <span>SCROLL TO EXPLORE ↓</span>
+        </div>
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="gallery-section" id="gallery">
+
+        <div class="section-top">
+            <div>
+                <p class="section-label">CURATED COLLECTION</p>
+                <h2>Discover <span>Moments.</span></h2>
+                <p class="section-description">
+                    A little inspiration in every photograph.
+                </p>
+            </div>
+
+            <div class="collection-count">
+                <strong id="photo-count">12</strong>
+                <span>PHOTOGRAPHS</span>
+            </div>
+        </div>
+
+
+        <!-- SEARCH -->
+        <div class="gallery-controls">
+
+            <div class="search-container">
+                <span class="search-icon">⌕</span>
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Search your favourite photographs..."
+                    autocomplete="off"
+                    aria-label="Search photographs"
+                >
+                <button id="clear-search" aria-label="Clear search">×</button>
+            </div>
+
+            <div class="filters" aria-label="Filter photographs">
+                <button class="filter-btn active" data-category="all">All Photos</button>
+                <button class="filter-btn" data-category="nature">Nature</button>
+                <button class="filter-btn" data-category="animals">Wildlife</button>
+                <button class="filter-btn" data-category="architecture">Architecture</button>
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE GRID -->
+        <main class="gallery-grid" id="gallery-grid">
+
+            <!-- NATURE -->
+
+            <article class="gallery-item" data-category="nature">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900" alt="Beautiful mountain landscape" loading="lazy">
+                    <span class="image-category">NATURE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Mountain Escape</h3>
+                    <p>Where the sky meets the earth.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="nature">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900" alt="Beautiful nature landscape" loading="lazy">
+                    <span class="image-category">NATURE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Nature's Beauty</h3>
+                    <p>Finding peace in every detail.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="nature">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=900" alt="Green forest" loading="lazy">
+                    <span class="image-category">NATURE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Green Forest</h3>
+                    <p>A beautiful escape into nature.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="nature">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=900" alt="Golden sunrise" loading="lazy">
+                    <span class="image-category">NATURE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Golden Sunrise</h3>
+                    <p>Every morning brings new hope.</p>
+                </div>
+            </article>
+
+
+            <!-- WILDLIFE -->
+
+            <article class="gallery-item" data-category="animals">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=900" alt="Fox in nature" loading="lazy">
+                    <span class="image-category">WILDLIFE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Wild Beauty</h3>
+                    <p>Discover the wonders of wildlife.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="animals">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=900" alt="Beautiful cat" loading="lazy">
+                    <span class="image-category">WILDLIFE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Little Companion</h3>
+                    <p>Small moments, endless happiness.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="animals">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=900" alt="Golden dog" loading="lazy">
+                    <span class="image-category">WILDLIFE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Golden Friend</h3>
+                    <p>Friendship without words.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="animals">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=900" alt="Panda" loading="lazy">
+                    <span class="image-category">WILDLIFE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Gentle Panda</h3>
+                    <p>Nature's adorable masterpiece.</p>
+                </div>
+            </article>
+
+
+            <!-- ARCHITECTURE -->
+
+            <article class="gallery-item" data-category="architecture">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=900" alt="Modern architecture" loading="lazy">
+                    <span class="image-category">ARCHITECTURE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Urban Design</h3>
+                    <p>Where creativity meets structure.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="architecture">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=900" alt="Modern white building" loading="lazy">
+                    <span class="image-category">ARCHITECTURE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Modern Spaces</h3>
+                    <p>Simple designs, powerful impressions.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="architecture">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=900" alt="Contemporary building" loading="lazy">
+                    <span class="image-category">ARCHITECTURE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>City Structures</h3>
+                    <p>Exploring modern city life.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item" data-category="architecture">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900" alt="Modern interior architecture" loading="lazy">
+                    <span class="image-category">ARCHITECTURE</span>
+                    <span class="view-icon">↗</span>
+                </div>
+                <div class="image-info">
+                    <h3>Creative Interiors</h3>
+                    <p>Spaces that inspire creativity.</p>
+                </div>
+            </article>
+
+        </main>
+
+
+        <!-- EMPTY STATE -->
+        <div class="no-results" id="no-results">
+            <div class="empty-icon">⌕</div>
+            <h3>No photographs found</h3>
+            <p>Try another search or choose a different category.</p>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <p class="section-label">OUR PHILOSOPHY</p>
+            <h2>More than pictures.<br><span>Stories worth remembering.</span></h2>
+            <p>
+                SNAPSPACE is a visual collection celebrating nature,
+                wildlife and architecture. Every photograph captures
+                a unique perspective of our beautiful world.
+            </p>
+        </div>
+        <div class="about-decoration">S.</div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <a href="#" class="logo">SNAP<span>SPACE</span><i>.</i></a>
+            <p>Capturing moments. Creating memories.</p>
+            <a href="#home" class="back-top">BACK TO TOP ↑</a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 SNAPSPACE. All rights reserved.</p>
+            <p>DESIGNED WITH CREATIVITY.</p>
+        </div>
+    </footer>
+
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+
+        <button class="close" id="close" aria-label="Close viewer">×</button>
+
+        <button class="prev" id="prev" aria-label="Previous image">‹</button>
+
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Selected photograph">
+            <h3 id="caption"></h3>
+            <p id="image-number"></p>
+        </div>
+
+        <button class="next" id="next" aria-label="Next image">›</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
